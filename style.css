@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.parent {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: blue;
+}
+
+.child1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: red;
+    bottom:0;
+    right: 0;
+}
